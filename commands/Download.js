@@ -1,3 +1,4 @@
+
 const { franceking } = require('../main');
 const { fetchAllPosts } = require('../france/Ig');
 const axios = require('axios');
@@ -25,7 +26,7 @@ module.exports = [
   name: 'tiktok',
   aliases: ['tk', 'tiktokdl'],
   description: 'Download TikTok media by link.',
-  category: 'Downloader',
+  category: 'Download',
 
   execute: async (king, msg, args, fromJid) => {
     const query = args.join(' ').trim();
